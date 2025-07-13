@@ -1,0 +1,10 @@
+# Ignore env files
+node_modules/
+.env
+frontend/.env
+backend/.env
+*.log
+.vscode/
+.DS_Store
+dist/
+build/
