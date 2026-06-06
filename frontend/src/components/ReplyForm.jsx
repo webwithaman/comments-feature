@@ -14,7 +14,7 @@ const ReplyForm = ({
       >
         <div className="mb-3">
           <label htmlFor="inputText" className="form-label">
-            Add Comment
+            Add Reply
           </label>
           <input
             type="text"

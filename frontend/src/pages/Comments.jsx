@@ -34,7 +34,7 @@ const Comments = () => {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
           },
-        }
+        },
       );
 
       setCommentText("");
@@ -55,7 +55,7 @@ const Comments = () => {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
           },
-        }
+        },
       );
 
       console.log("deleted comment :", res.data.comment);
@@ -80,7 +80,7 @@ const Comments = () => {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("jwtToken")}`,
           },
-        }
+        },
       );
 
       console.log("replied comment :", res.data.comment);
