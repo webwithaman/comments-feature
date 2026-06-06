@@ -71,11 +71,11 @@ const CommentItem = ({
             className="btn btn-info me-3"
             onClick={() => {
               setActiveReply((prev) =>
-                prev === comment._id ? null : comment._id
+                prev === comment._id ? null : comment._id,
               );
             }}
           >
-            {activeReply === comment._id ? "Cancel" : "Reply"}
+            {activeReply === comment._id ? "Cancel Reply" : "Reply"}
           </button>
           <button
             className="btn btn-danger"

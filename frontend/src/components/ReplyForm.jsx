@@ -6,7 +6,8 @@ const ReplyForm = ({
 }) => {
   return (
     <>
-      <form className="mb-3"
+      <form
+        className="mb-3"
         onSubmit={(e) => {
           replySubmitHandler(e, comment._id);
         }}
@@ -31,7 +32,7 @@ const ReplyForm = ({
           />
         </div>
         <button type="submit" className="btn btn-primary btn-dark text-light">
-          reply
+          Reply
         </button>
       </form>
     </>

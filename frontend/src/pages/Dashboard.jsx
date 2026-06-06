@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { getUserInfoFromJwtToken } from "../utils/auth";
 
 const Dashboard = () => {
-
   return (
     <div>
       <h2 className="text-center mb-4">Dashboard</h2>

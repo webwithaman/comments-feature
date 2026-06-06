@@ -21,7 +21,7 @@ const Register = () => {
           name: formData.name,
           email: formData.email,
           password: formData.password,
-        }
+        },
       );
 
       setFormData({
@@ -31,7 +31,7 @@ const Register = () => {
       });
 
       console.log("User registered:", res.data);
-      alert("User Registered Successfullt");
+      alert("User Registered Successfully");
       navigate("/login");
     } catch (err) {
       console.error("error", err.response.data);
